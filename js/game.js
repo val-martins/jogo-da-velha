@@ -73,7 +73,7 @@ function draw() {
             if (full === board.length) {
 
                 setTimeout(() => {
-                    alert("DRAW!\n\nThere's no winners this time!");
+                    alert("Empatado!\n\nNão houve ganhadores");
                     document.location.reload(true);
                 }, 10);
                 return true;

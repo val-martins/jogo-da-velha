@@ -17,7 +17,7 @@ function handleClick(event) {
     let square = event.target;
     let position = square.id;
 
-    yourTurn === 0 ? msg = '1st Player is the champion!\n\nThe winner sequence was: ' : msg = '2nd Player is the champion!\n\nThe winner sequence was: ';
+    yourTurn === 0 ? msg = '1° JOGADOR FOI O CAMPEÃO!\n\nA sequencia ganhadora foi: ' : msg = '2° JODAGOR FOI O CAMPEÃO!\n\nA sequencia ganhadora foi: ';
     
     if (handleMove(position)) {
         setTimeout(()=>{
